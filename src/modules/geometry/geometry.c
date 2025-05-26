@@ -313,7 +313,6 @@ void CreateGeometryQueries(ecs_iter_t *it) {
                 .src.id    = EcsSelf,
                 .inout     = EcsInOutNone,
             }},
-            .flags = EcsQueryIsInstanced,
             .cache_kind = EcsQueryCacheAuto
         };
 
